@@ -1,4 +1,4 @@
-# prizmad-com
+# Prizmad
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,138 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-prizmad-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://prizmad.com/
+Prizmad is an AI-powered video ad generation platform that creates user‑generated‑content style advertisements for e‑commerce brands. Using AI avatars, synthetic voiceovers and automated editing, it transforms product links into short TikTok, Reels and Shorts videos in minutes, offering commercial rights, multi‑language support, and scalable pricing plans for marketers and agencies.
+
+**Areas:** AI · VideoAds · ECommerce · Marketing · Automation
+
+## Prizmad on APIs.io
+
+Everything profiled for Prizmad is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/prizmad-com/](https://apis.io/providers/prizmad-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Prizmad Avatars API](https://apis.io/apis/prizmad-com/prizmad-com-avatars-api/) — The Avatars API from Prizmad — 1 operation(s) for avatars.
+- [Prizmad Templates API](https://apis.io/apis/prizmad-com/prizmad-com-templates-api/) — The Templates API from Prizmad — 1 operation(s) for templates.
+- [Prizmad Upload API](https://apis.io/apis/prizmad-com/prizmad-com-upload-api/) — The Upload API from Prizmad — 1 operation(s) for upload.
+- [Prizmad Videos API](https://apis.io/apis/prizmad-com/prizmad-com-videos-api/) — The Videos API from Prizmad — 4 operation(s) for videos.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Prizmad Agentic Access](https://apis.io/agentic-access/prizmad-com/prizmad-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Avatar](https://apis.io/schemas/prizmad-com/prizmad-com-avatar/)
+- [BatchVideoRequest](https://apis.io/schemas/prizmad-com/prizmad-com-batch-video-request/)
+- [BatchVideoResponse](https://apis.io/schemas/prizmad-com/prizmad-com-batch-video-response/)
+- [CreateVideoRequest](https://apis.io/schemas/prizmad-com/prizmad-com-create-video-request/)
+- [Template](https://apis.io/schemas/prizmad-com/prizmad-com-template/)
+- [VideoStatus](https://apis.io/schemas/prizmad-com/prizmad-com-video-status/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Prizmad Com Context](https://apis.io/jsonld/prizmad-com/prizmad-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Prizmad API Rules](https://apis.io/rules/prizmad-com/prizmad-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Prizmad Authentication](https://apis.io/security/prizmad-com/prizmad-com-authentication/)
+- [Prizmad Domain Security](https://apis.io/security/prizmad-com/prizmad-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Prizmad Scopes](https://apis.io/scopes/prizmad-com/prizmad-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Prizmad Plans Pricing](https://apis.io/plans/prizmad-com/prizmad-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://prizmad.com/)
+- [Documentation](https://prizmad.com/guides)
+- [API reference](https://prizmad.com/llms.txt)
+- [Pricing](https://prizmad.com/pricing)
+- [Blog](https://prizmad.com/blog)
+- [Terms of service](https://prizmad.com/terms)
+- [Privacy policy](https://prizmad.com/privacy)
+- [GitHub](https://github.com/prizmad)
+
+## API Evangelist rating
+
+**Kin Score 50.3** — developing · rubric 0.28.0 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 59.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 4.8 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 48.5 |
+
+**Agent readiness 48.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 26.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/prizmad-com/](https://apis.io/providers/prizmad-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Prizmad: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/prizmad-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
